@@ -4,45 +4,75 @@ en las secciones señaladas */
 /*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
 coloque nas sessões indicadas*/
 
-:root{
+/* :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa
    --cor-de-fundo: #121010;
    --cor-de-link: #6c6b6b;
-}
+} */
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+    background-color: rgb(23, 23, 23);
     font-family: 'Raleway';
+    color:#9e9b9b;
     margin: 0;
     padding: 0;
     line-height: 1;
 }
-/* .menu__header{
-    display: flex;
-    justify-content: center; /* Centrar elementos horizontalmente 
-    align-items: center;
-} */
 
-.menu__header {
-    color: aqua;
-    
+
+/* .menu { */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    align-content: flex-start ;
 }
 
 
+.menu__header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+/* .menu__title{ */
+    display: flex;
+
+    background-color: aqua;
+
+}
+
+/* .title__profile{ */
+    width: 0%;
+    height: 0%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5%;
+}
+
+.menu__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
 h3{
-    color: #771c1c;
+    color: #403f3f;
     font-size: 4rem;
     font-weight: 900;
 }
 ol, ul,li {
     list-style: none;
 }
-a{
+/* a{
     text-decoration: none;
     color: var(--cor-de-link);
-}
+} */
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
 
